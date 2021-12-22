@@ -1,0 +1,443 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+/************************
+ header section
+*************************/
+header{
+	width: 100%;
+	padding: 30px 0px;	
+	position: absolute;
+}
+.nav-head{
+	display: flex;
+	justify-content: space-between;
+}
+.head-right{
+	text-align: right;
+}
+.top{
+	margin-bottom: 20px;
+}
+.top span{
+	font-size: 16px;
+	font-weight: bold;
+	color: #3d2514;
+	font-family: 'Montserrat', sans-serif;
+}
+.top img{
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.bottom ul li{
+	display: inline-block;
+	margin-left: 30px;
+}
+.bottom ul li a{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #604421;
+	letter-spacing: 3px;
+}
+
+/************************
+ banner section
+*************************/
+.banner{
+	width: 100%;
+	background-image: url(../img/fst-bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-bottom: 30px;
+}	
+.banner-nav{
+	display: flex;
+	justify-content: space-between;
+}
+.banner-left, .banner-right{
+	flex-basis: 50%;
+}
+.banner-left{
+	padding-top: 250px;
+}
+
+.banner-left span{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 23px;
+	color: #573a1d;
+	padding: 5px 12px;
+	border: 2px dashed #3d2514;
+}
+.banner-left h1{
+	font-family: 'Alfa Slab One', cursive;
+    font-size: 114px;
+    letter-spacing: 6px;
+    color: #3d2514;
+    text-shadow: 3px 5px #fee7ba;
+    text-transform: uppercase;
+}
+.banner-left h2{
+	font-family: 'Alfa Slab One', cursive;
+    font-size:56px;
+    color: #3d2514;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 2px 4px #fee7ba;
+}
+
+.banner-right img{
+	width: 100%;
+}
+
+/************************
+ third section
+*************************/
+.third{
+	width: 100%;
+	padding: 120px 0px;
+}
+.third-nav{
+	display: flex;
+}
+.third-nav img{
+	width: 100%;
+	height: auto;
+}
+.third-cnt-left{
+	margin-right: 20px;
+}
+.third-cnt-right{
+	margin-left: 20px;
+}
+.third-img-cnt{
+	position: relative;
+}
+.third-txt{
+	position: absolute;
+	top: 20px;
+	left: 10px;
+}
+.third-txt h3{
+	font-size: 25px;
+	font-family: 'Bebas Neue', cursive;
+	text-transform: uppercase;
+	color: white;
+	font-weight: 200;
+    letter-spacing: 1px;
+    margin-bottom: 2px;
+}
+.third-txt h2{
+	font-size: 41px;
+	font-family: 'Bebas Neue', cursive;
+	text-transform: uppercase;
+	color: white;
+	font-weight: 500;
+	line-height: 1;
+
+}
+.third-cnt-righ-top{
+	margin-bottom: 28px;
+}
+/************************
+ forth section
+*************************/
+.forth{
+	width: 100%;
+	padding-bottom: 70px;
+}
+.forth-cnt{
+	text-align: center;
+}
+.forth-cnt span{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 25px;
+    background-color: #ffc045;
+    color: #3d2514;
+    padding: 8px 16px;
+    text-transform: uppercase;
+}
+.forth-cnt h2{
+	font-size: 50px;
+	font-family: 'Alfa Slab One', cursive;
+	color: #3d2514;
+	text-transform: uppercase;
+	margin-top: 45px;
+	margin-bottom: 15px;
+	letter-spacing: 3px;
+}
+.forth-cnt p{
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 2;
+    letter-spacing: 1px;
+    color: #573a1d;
+}
+/************************
+ fifth section
+*************************/
+.fifth{
+	width: 100%;
+	padding-bottom: 100px;
+}
+.fifth-nav{
+	display: flex;
+	text-align: center;
+}
+.fifth-nav img{
+	width: 100%;
+	height: auto;
+}
+.fifth-1{
+	padding-top: 57px;
+}
+.fifth-3{
+	padding-top: 57px;
+}
+.fifth-cnt h3{
+	font-size: 37px;
+    font-family: 'Bebas Neue', cursive;
+    color: #3d2514;
+    font-weight: 400;
+    margin: 10px 0px;
+    
+}
+.fifth-cnt p{
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;	
+    color: #573a1d;
+    line-height: 22px;
+    margin-bottom: 40px;
+}
+.fifth-cnt button{
+	text-transform: uppercase;
+    font-size: 16px;
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+    background-color: #bf2222;
+    border: none;
+    padding: 15px 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.fifth-cnt button:hover{
+	background-color: darkred;
+}
+
+/************************
+ sixth section
+*************************/
+.sixth{
+	width: 100%;
+	padding: 60px 0px;
+}
+.sixth-slide{
+	padding: 18px 18px 10px 18px;
+	box-shadow: 5px 5px 10px rgb(0 0 0 / 30%);
+}
+.sixth-nav{
+	display: flex;
+
+}
+.sixth-left{
+	flex-basis: 50%;
+	padding-top: 30px;
+}
+.sixth-left h4{
+	font-size: 29px;
+	font-family: 'Bebas Neue', cursive;
+    color: #3d3d3d;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.sixth-left h2{
+	font-size: 38px;
+	font-family: 'Alfa Slab One', cursive;
+    color: #3d2514;
+    font-weight: 500;
+    line-height: 1;
+    margin-bottom: 50px;
+}
+.sixth-left p{
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+    color: #3d2514;
+    line-height: 1.7;
+}
+.sixth-right-img{
+	width: 100%;
+	height: auto;
+}
+.owl-theme .owl-nav {
+    display: none;
+}    
+.owl-theme .owl-dots{
+	position: absolute;
+    bottom: 15px;
+    left: 10px;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #ffcd55;
+}
+/************************
+ seventh section
+*************************/
+.seventh{
+	width: 100%;
+	height: 595px;
+	padding-top: 60px;
+	padding-bottom: 30px;
+	position: relative;
+}
+.top-img{
+	position: absolute;
+	top: 0px;
+}
+.btm-img{
+	position: absolute;
+	top: 190px;
+    right: 0px;
+    
+}
+.seven-top{
+	text-align: center;
+}
+.bottle{
+	    margin-right: 100px;
+}
+.seven-top h4{
+	font-size: 29px;
+	font-family: 'Bebas Neue', cursive;
+    color: #3d3d3d;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.seven-top h2{
+	font-size: 50px;
+	font-family: 'Alfa Slab One', cursive;
+    color: #3d2514;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.seven-form{
+	display: flex;
+}
+.form{
+	margin-top: 30px;
+}
+form div input{
+	font-size: 20px;
+	font-family: 'Bebas Neue', cursive;
+	color: #757575;
+    letter-spacing: 1px;
+    padding: 10px 15px;
+    margin: 10px;
+   
+}
+
+#datepicker:before {
+	content:'DATE';
+	font-size: 20px;
+	color:#757575;
+	padding-right: 10px;
+	font-family: 'Bebas Neue', cursive;
+}
+#timepicker:before {
+	content:'DATE';
+	font-size: 20px;
+	color:#757575;
+	padding-right: 10px;
+	font-family: 'Bebas Neue', cursive;
+}
+.pad-more{
+	 padding-right: 165px;
+}
+.pad-more-v{
+	 padding-right: 123px
+}
+.pad-more-f{
+	 padding-right: 189px
+}
+.submit{
+	padding: 12px 135px;
+    background-color: #bf2222; 
+    color: white;
+    border: 1px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/************************
+ footer section
+*************************/
+footer{
+	width: 100%;
+	padding-bottom: 40px;
+}
+.ftr-container{
+	width: 1140px;
+	margin: auto;
+	background-image: url(../img/footer-bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding-top: 70px;
+    padding: 70px 15px 20px 30px;
+}
+.ftr-nav{
+	display: flex;
+	justify-content: space-between;
+}
+.ft-left, .ft-right{
+	flex-basis: 50%;
+}
+.pone{
+	font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin: 40px 0px 80px 0px;
+    line-height: 1.6;
+}
+.ptwo{
+	font-size: 16px;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    letter-spacing: 1px;
+}
+.f-nav-r-top{
+	    padding: 120px 0px 0px 190px;
+}
+.f-nav-r-top span{
+	font-size: 20px;
+	font-family: 'Bebas Neue', cursive;
+	color: white;
+	line-height: 2.5;
+}
+.f-nav-r-top a img{
+	vertical-align: middle;
+	margin-right: 25px;
+}
+.f-nav-r-btm{
+	padding: 85px 0px 0px 379px;
+}
+.f-nav-r-btm a img{
+    margin: 0px 5px;
+
+}
